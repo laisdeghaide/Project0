@@ -1,0 +1,35 @@
+$color1: #6c648b;
+$color2: #fba100;
+
+.btn-primary {
+	background-color: $color1;
+	border-color: $color1;
+}
+
+.btn-primary:hover {
+    background-color: $color2;
+    border-color: $color2;
+}
+
+%card-body p {
+    text-align: center;
+}
+
+.row {
+    @extend %cardy-body p;
+    width: 87%;
+    margin: auto;
+}
+
+.col-md-4 {
+    margin: 1.25rem 0;
+}
+
+.card::shadow {
+    width: 28rem;
+}
+
+.card:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.05);
+}

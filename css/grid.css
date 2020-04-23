@@ -1,0 +1,26 @@
+.col-md-4 {
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+}
+
+.button {
+    width:100px;
+    height:100px;
+}
+
+.col-md-4  .button {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.info{
+    text-align: justify;
+    text-indent: 2em;
+}
+
+@media screen and (max-width: 34em) {
+    .col-sm-6 {
+        margin-left: 1.25rem;
+    }
+}

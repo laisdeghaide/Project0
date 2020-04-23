@@ -1,0 +1,32 @@
+.btn-primary {
+	background-color: #6c648b;
+	border-color: #6c648b;
+}
+
+.btn-primary:hover {
+    background-color: #fba100;
+    border-color: #fba100;
+}
+
+.row {
+    text-align: center;
+    width: 87%;
+    margin: auto;
+}
+
+.col-md-4 {
+    margin: 1.25rem 0;
+}
+
+.card-body p {
+    text-align: center;
+}
+
+.card::shadow {
+    width: 28rem;
+}
+
+.card:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.05);
+}

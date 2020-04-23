@@ -1,0 +1,19 @@
+$color: rgb(170, 167, 167);
+$bordertype: solid;
+
+table {
+    border: 2px $bordertype $color;
+    border-collapse: collapse; 
+    width: 87%;
+    margin: auto;
+}
+
+th, td {
+    border: 1px $bordertype $color;
+    padding: 5px;
+    text-align: left;
+}
+
+th {
+   background-color: lightgrey; 
+}
