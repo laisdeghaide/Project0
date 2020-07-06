@@ -1,6 +1,6 @@
 # Project0
 
-Project0 from Havard's<a href='https://cs50.harvard.edu/web/2020/projects/0/'>Web Programming with Python and JavaScript</a> course.
+First project from Havard's <a href='https://cs50.harvard.edu/web/2020/projects/0/'>Web Programming with Python and JavaScript</a> course.
 
 This project contains 5 HTML files: index, program, channels, conf, and info.
 This project contains also 5 CSS files to bring up to the HTML pages a more aesthetically pleasing face.
